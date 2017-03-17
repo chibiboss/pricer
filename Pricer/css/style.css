@@ -1,0 +1,21 @@
+.main-cont{
+  background-image: url("back1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.logo{
+  width: 150px;
+  border-radius: 30%;
+}
+.barraS{
+  border: medium none;
+  width: 400px;
+  display: inline-block;
+  margin-top: 2%;
+}
+.botones-main{
+  margin-top: 15%;
+}
+.help{
+  margin-top: 10%;
+}
