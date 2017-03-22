@@ -1,7 +1,6 @@
-.main-cont{
-  background-image: url("back1.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+body{
+  background: url("back1.png") no-repeat center center fixed;
+  background-size: cover;
 }
 .logo{
   width: 150px;
@@ -17,5 +16,24 @@
   margin-top: 15%;
 }
 .help{
-  margin-top: 10%;
+text-align: center;
+}
+.col.s12 > .btn {
+   width: 100%;
+}
+main {
+  flex: 1 0 auto;
+}
+.input-field input[type=date]:focus + label,
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=password]:focus + label {
+  color: #e91e63;
+}
+.input-field input[type=date]:focus,
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus {
+  border-bottom: 2px solid #e91e63;
+  box-shadow: none;
 }
